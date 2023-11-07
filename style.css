@@ -12,64 +12,142 @@ main{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-  
+    align-items: center;  
 }
-.left{
 
+.container{   
+    width: 842px;
+    height: 583px;
+    display: inline-flex;
+    justify-content: center;
+    justify-content:flex-start;
+    align-items: center;     
+}
+
+
+#connectez{
     width: 329px;
-    height: 593px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    
+    height: 583px;        
 }
 
-.right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 10px;
-   
-}
-
-.card{
-
-    border: red solid 2px;
+.right{   
     width: 393px;
     height: 405px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 78px 77px 100px 43px;
+    
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 8px;
     box-shadow: 0px 10px 40px #FFFFFF;
-    font-weight: 400;
+    margin-bottom: 28px;   
     
-
-    
-
-
 }
 
 h1{
-
     color: #00A551;
-    margin: 10px 0;
+    width: 155px;
+    height: 23px;
     font-weight: 500;
-
+    font-size: 20px;
 }
 
-p{
+h2{
+    color: #474749;
+    width: 247px;
+    height: 14px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 18px;         
+}
+
+.textfield{
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 26px;
+    
+}
+
+label{
+    color: #7f7e83;
+    width: 75px;
+    height: 14px;
+    font-weight: 500;
+    font-size: 12px;  
+}
+
+input{
+    border: none;
+    width: 309px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    border: none;
+    color: #ffffff; 
+    background: #00A551;
+    margin-top: 36px;   
+    
+}
+
+h3{
+    color: #474749;
+    width: 254px;
+    height: 14px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 27px;       
+    
+}
+
+a{
+    color: #00A551
+}
+
+
+
+    
+    /*/border-radius: 8px;
+    box-shadow: 0px 10px 40px #FFFFFF;
+    border: 2px solid red;  
+
+    449 wid
+    178 hei
+
+
+
+h1{
+    color: #00A551;
+    margin: 10px 0;
+    font-weight: 500;    
+}
+
+h1{
     font-weight: 400;
     margin: 40px 0;
 }
 
 .textfield{
-
     margin: 5px 0;
     display: flex;
     justify-content: center;
@@ -86,17 +164,12 @@ input{
     border: 2px solid transparent;
 }
 
-.btn-connexion{
+.button{
     background-color: #00A551
-    
-
-
-
 }
+/*/
 
-#create{
 
-}
 
 
 
